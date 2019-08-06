@@ -1,0 +1,14 @@
+.marathon-photo {
+    height: 20%;
+    width: 20%;
+}
+
+.cubing-video {
+    height: 30%;
+    width: 30%;
+    /* transform: rotate(270deg); */
+}
+
+.wca-link {
+    text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+<div class="page_display">
+    <div class="cover-container d-flex p-3 mx-auto flex-column">
+        <header class="masthead">
+            <div class="inner">
+                <a routerLink="about-me">
+                    <h3 class="masthead-brand">Scott McGowan</h3>
+                </a>
+                <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link" routerLink="hobbies" routerLinkActive="active">Hobbies</a>
+                <a class="nav-link" routerLink="experience" routerLinkActive="active">Experience</a>
+                <a class="nav-link" href="https://drive.google.com/file/d/1egeC4-pO4T7Nnw68rTyAFigQYchTNLkT/view?usp=sharing" target="_blank">Resume</a>
+                </nav>
+            </div>
+        </header>
+        <main role="main" class="inner cover-container">
+            <router-outlet></router-outlet>
+        </main>
+        <footer class="mastfoot">
+        <div class="inner">
+            <p>Feel free to email me at <a href="mailto:scottmcgowan@vt.edu">scottmcgowan@vt.edu</a> or connect!</p>
+            <a href="https://www.linkedin.com/in/scott-mcgowan-643265127" target="_blank"><img src="../assets/LinkedIn_Icon.jpg" class="linkedin_icon"/></a>
+            <a href="mailto:scottmcgowan@vt.edu" target="_blank"><img src="../assets/Gmail_Icon.jpg" class="gmail_icon" /></a>
+            <a href="https://github.com/ScottMcgowan20" target="_blank"><img src="../assets/github_icon.png" class="github_icon" /></a>
+        </div>
+        </footer>
+    </div>
+</div>
+
